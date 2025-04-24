@@ -1,6 +1,6 @@
-# HookSphere
+#react-hooks-lab
 
-HookSphere é um projeto React que demonstra o uso de diversos hooks customizados. Ele utiliza Vite como bundler e TypeScript para desenvolvimento.
+react-hooks-lab é um projeto React que demonstra o uso de diversos hooks customizados. Ele utiliza Vite como bundler e TypeScript para desenvolvimento.
 
 ## Funcionalidades
 
