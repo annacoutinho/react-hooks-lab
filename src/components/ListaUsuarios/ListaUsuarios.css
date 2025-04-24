@@ -1,0 +1,84 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  background-color: #2d6a4f;
+  color: #ffffff; 
+  width: 100vw; 
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #ffffff; 
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+.user-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 0;
+  margin-top: 30px; 
+}
+
+.user-item {
+  background-color: #ffffff; 
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+  width: 250px;
+  text-align: center;
+  color: #333333; 
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.user-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+input[type="text"] {
+  padding: 12px 20px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  width: 300px;
+  margin: 10px 0;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+  border-color: #2d6a4f; 
+  outline: none;
+}
+
+.prev-search {
+  background-color: #e9f5e9; 
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 1px solid #2d6a4f; 
+  margin-top: 20px;
+  color: #2d6a4f; 
+  font-size: 1.2rem;
+}
+
+button {
+  background-color: #2d6a4f; 
+  color: #ffffff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #1b4b33; 
+}
